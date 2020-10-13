@@ -1,18 +1,86 @@
 body {
-  margin: 40px;
+  margin: 0;
   padding: 0;
 
-  font-family: 400 14px/24px 'Montserrat', sans-serif;
+  font: 400 14px/24px 'Montserrat', sans-serif;
   color: #595959;
+  letter-spacing: 0.42px;     
+  background-color: #f5f7fa;
 }
 
-ul li {
-  list-style: none;
+main {
+  margin: 40px;
+  width: 1200px;
+
+  font-family: 400 14px/24px 'Montserrat', sans-serif;
+
+  background-color: #fff;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
-a {
-  text-decoration: none;
+aside {
+  width: 370px;
+  height: 1319px;
+
+  padding: 40px 0; 
+
+  color: #fff;
+  background-color: #1e2939;
 }
+
+aside a {
+  opacity: 0.5;
+  color: #fff;
+
+  letter-spacing: 0.42px;
+}
+
+aside section {
+  padding-left: 40px;
+}
+
+ul {margin-left: 14px;}
+ol {margin-left: 16px;}
+
+
+aside li{color: #ff6b08;}
+aside li span{color: #fff;}
+article h4 {margin-top: 12px;}
+
+
+article {padding: 108px 90px;}
+
+h1, h2, h3, h4 {  
+  font-family: Montserrat, sans-serif;
+  color: #000;
+  font-weight: 700;
+}
+h2, h3, h4 {line-height: 24px;}
+h4 {margin-top: 2px;}
+
+aside h3 {
+  margin-top: 55px;
+  color: #fff;
+
+  margin-bottom: 8px;
+}
+
+aside section span {margin-right: 10px;}
+
+h1 {
+  font-size: 45px;
+  line-height: 65px;
+}
+
+h4 span {color: #ff6b08;}
+
+h2 {font-size: 14px;}
+h3 {font-size: 22px;}
+h4 {font-size: 16px;} 
+
+a {text-decoration: none;}
+a[href="mailto:chornyiav@gmail.com"] {text-decoration: underline;}
+article a {color: #595959;}
 
 main {
   display: flex;
@@ -23,6 +91,20 @@ article {
   display: flex;
   flex-direction: column;
 }
+
+div > span {
+  font-size: 12px;
+  color: #a8a8a8;
+}
+div > span > span {color: #000;}
+
+
+article section {margin-bottom: 42px;}
+
+header p {width: 415px;}
+div ul {width: 537px;}
+
+header {margin-bottom: 54px;}
 
 * {
   -webkit-box-sizing: border-box;
