@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  margin: 40px;
+  margin: 40px auto;
   width: 1200px;
 
   font-family: 400 14px/24px 'Montserrat', sans-serif;
