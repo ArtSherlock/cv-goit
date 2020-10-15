@@ -40,12 +40,18 @@ aside section {
 }
 
 ul {margin-left: 14px;}
-ol {margin-left: 16px;}
+ol {
+  margin-left: 16px;
+  font-weight: 700;
+}
+ol span {font-weight: 400;}
 
 
 aside li{color: #ff6b08;}
 aside li span{color: #fff;}
 article h4 {margin-top: 12px;}
+
+
 
 
 article {padding: 108px 90px;}
